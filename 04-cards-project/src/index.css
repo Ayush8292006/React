@@ -1,0 +1,158 @@
+/* --- GENERAL --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.parent {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e9f0ff, #f7faff);
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* --- CARD --- */
+.card {
+  width: 430px;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+  border: 1px solid #eef2ff;
+  margin: 20px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* --- TOP SECTION --- */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 12px;
+  padding: 5px;
+  background: #f2f6ff;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #eef2ff;
+  color: #3555d8;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+.top button:hover {
+  background: #dbe2ff;
+  transform: scale(1.05);
+}
+
+/* --- CENTER --- */
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.center h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+}
+
+.center h3 span {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #888;
+}
+
+.center h2 {
+  font-size: 24px;
+  color: #1d1d1d;
+  font-weight: 700;
+}
+
+.center div {
+  display: flex;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.center div h4 {
+  padding: 8px 14px;
+  background: #f3f4f8;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  border: 1px solid #e4e7f2;
+}
+
+/* --- BOTTOM SECTION --- */
+.bottom {
+  display: flex;
+  justify-content: space-between; /* ✅ left text + right button */
+  align-items: center;
+  margin-top: 6px;
+}
+
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bottom h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bottom p {
+  font-size: 15px;
+  color: #727272;
+}
+
+/* APPLY BUTTON */
+.bottom button {
+  background: #5069ff;
+  color: white;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.25s;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.bottom button:hover {
+  background: #2c4bff;
+  transform: translateY(-3px);
+}

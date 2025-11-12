@@ -1,0 +1,15 @@
+ .card {
+  background-color: aqua;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+    border-radius: 10px;
+ }
+
+  .navbar {
+  background-color: pink;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+    border-radius: 10px;
+ }
